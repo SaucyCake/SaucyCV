@@ -1,7 +1,6 @@
 import sys
 import PySimpleGUI as sg
 import os.path
-sys.path.append('C:/Users/Saucer/AppData/Local/Programs/Python/Python311/Lib/site-packages')
 import cv2
 
 recently_modified = []
@@ -136,7 +135,8 @@ def About():
                      'a simple program to add borders without cropping or decreasing image quality\n'
                      '(limitations of code decreases dpi, so use for online only!!!)\n'
                      'also been interested in computer vision and learning python\n'
-                     'so will be adding more, let me know if you have interesting ideas or complaints')],
+                     'so will be adding more, let me know if you have interesting ideas or complaints\n'
+                     'Made with OpenCV and PySimpleGui (code referenced from demos on Github')],
             [sg.VerticalSeparator()],
             [sg.Text('Contact me, about anything\n'
                      'Discord: Saucy#1112\n'
